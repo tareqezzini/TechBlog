@@ -1,0 +1,120 @@
+/*---------------------------------------------- Start Font -------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;600;700&display=swap');
+
+/*---------------------------------------------- Start Font -------------------------------------------------*/
+
+/*---------------------------------------------- Start Global -------------------------------------------------*/
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{text-decoration: none;}
+.main-content
+{
+    min-height: calc(100vh - 297px);
+}
+body
+{
+    font-family: 'Fira Sans', sans-serif;
+}
+/*---------------------------------------------- End Global -------------------------------------------------*/
+/*---------------------------------------------- Start Header -------------------------------------------------*/
+.navbar
+{
+    background-color: rgb(48, 48, 48);
+    
+}
+.navbar .nav-link:hover
+{
+    color: rgb(203, 203, 203);
+}
+.navbar a 
+{
+    color: white;
+}
+
+/*---------------------------------------------- End Header -------------------------------------------------*/
+/*---------------------------------------------- Start index -------------------------------------------------*/
+.hero
+{
+    background-image: url('../img/hero.jpg');
+    height:600px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.hero .info
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.latest-posts .img-post
+{
+    object-fit: cover;
+}
+.latest-posts .date
+{
+    color: #555;
+}
+.cats
+{
+    background-color: rgb(48, 48, 48);
+}
+.recent-post .info-post a
+{
+   color: #0f2027;
+   transition: .5s;
+}
+.recent-post .info-post a:hover
+{
+   opacity: .9; ;
+}
+.recent-post .info-post
+{
+    background-color: #8e4b10;
+}
+.btn-add-post
+{   
+    top: 10%;
+    right: 20px;
+    background-color: #1c6eaf;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+/*---------------------------------------------- End index -------------------------------------------------*/
+/*---------------------------------------------- Start Footer -------------------------------------------------*/
+/*---------------------------------------------- Start Login & Register -------------------------------------------------*/
+.login , .register
+{
+    height: calc(100vh - 345px);
+}
+
+/*---------------------------------------------- End Login & Register -------------------------------------------------*/
+
+.footer
+{
+    background-color: rgb(48, 48, 48) !important;
+}
+.footer h3 
+{
+    color: rgb(255, 255, 255);
+}
+.footer li 
+{
+    color: rgb(211, 211, 211);
+    transition: .5s;
+}
+.footer li:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
+
+/*---------------------------------------------- End Footer -------------------------------------------------*/
